@@ -12,6 +12,20 @@ import configureStore from './app/store';
 const {store} = configureStore();
 import Routs from './app/navigation';
 
+const tabContent = [
+        {
+            label: "Form Details", 
+            content: "form details"/>
+        },
+        {
+            label: "Edit Fields",
+            content: "form details"/>        },
+        {
+            label: "Share Form",
+            content: "form details"/>
+        },
+    ]
+
 const App: () => React$Node = () => {
   return (
     <>
